@@ -35,6 +35,6 @@ hist(GAP[, Global_active_power], main="Global Active Power",
 
 dev.off()
 
-![plot of chunk unnamed-chunk-2](figure/plot1.png) 
+![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
 
 
