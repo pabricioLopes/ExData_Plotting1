@@ -30,7 +30,7 @@ GAP <- GAP[(dateTime >= "2007-02-01") & (dateTime < "2007-02-03")]
 
 png("plot2.png", width=480, height=480)
 
-## Plot 2
+## Plot 2 - dateTime and Global Active Power (kilowatts)
 
 plot(x = GAP[, dateTime]
      , y = GAP[, Global_active_power]
