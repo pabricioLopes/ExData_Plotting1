@@ -9,7 +9,7 @@ library("data.table")
 
 setwd("C:/Users/Pabricio Marcos/Desktop/Coursera/curso")
 
-# Reads the data GAP (Global active power) from file then subsets data for specified dates
+# Reads the data GAP (Global active power) 
 
 GAP <- data.table::fread(input = "household_power_consumption.txt"
                              , na.strings="?"
