@@ -30,7 +30,7 @@ GAP <- GAP[(dateTime >= "2007-02-01") & (dateTime < "2007-02-03")]
 
 png("plot3.png", width=480, height=480)
 
-# Plot 3
+# Plot 3 - datetime versus energy sub metering
 plot(GAP[, dateTime], GAP[, Sub_metering_1], type="l", xlab="", ylab="Energy sub metering")
 lines(GAP[, dateTime], GAP[, Sub_metering_2],col="red")
 lines(GAP[, dateTime], GAP[, Sub_metering_3],col="blue")
