@@ -32,15 +32,15 @@ par(mfrow=c(2,2))
 
 # Plot 1, 2, 3 and 4 
 
-# Plot 1
+# Plot 1 - datetime versus Global active power
 
 plot(GAP[, dateTime], GAP[, Global_active_power], type="l", xlab="", ylab="Global Active Power")
 
-# Plot 2
+# Plot 2 - datetime versus voltagem
 
 plot(GAP[, dateTime],GAP[, Voltage], type="l", xlab="datetime", ylab="Voltage")
 
-# Plot 3
+# Plot 3 - datatime versus Energy sub metering 
 
 plot(GAP[, dateTime], GAP[, Sub_metering_1], type="l", xlab="", ylab="Energy sub metering")
 lines(GAP[, dateTime], GAP[, Sub_metering_2], col="red")
@@ -51,7 +51,7 @@ legend("topright", col=c("black","red","blue")
        , bty="n"
        , cex=.5) 
 
-# Plot 4
+# Plot 4 - datatime versus Global reactive power
 
 plot(GAP[, dateTime], GAP[,Global_reactive_power], type="l", xlab="datetime", ylab="Global_reactive_power")
 
